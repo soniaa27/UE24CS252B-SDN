@@ -74,9 +74,4 @@ Performance tested using `iperf` between `h1` and `h2`.
 
 ---
 
-## 5. Execution Steps
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-link>
 
----
