@@ -16,7 +16,7 @@ The network utilizes a single-switch topology (`s1`) with three hosts (`h1`, `h2
 The POX controller handles `packet_in` events and dynamically updates the switch flow table.
 
 ### Controller-Switch Connection
-![Controller Switch Connection](./images/ss1.png)
+![Controller Switch Connection](./Images/ss1.png)
 
 *Shows POX starting up and "Switch 1 connected"*# SDN Broadcast Traffic Control - Orange Problem
 
@@ -36,7 +36,7 @@ The network utilizes a single-switch topology (`s1`) with three hosts (`h1`, `h2
 The POX controller handles `packet_in` events and dynamically updates the switch flow table.
 
 ### Controller-Switch Connection
-![Controller Switch Connection](./images/ss1.png)
+![Controller Switch Connection](./Images/ss1.png)
 
 *Shows POX starting up and "Switch 1 connected"*
 
@@ -53,7 +53,7 @@ The controller logic performs the following:
    - If destination is **Known Unicast**, installs flow rule  
 
 ### Broadcast Detection
-![Broadcast Detection](./images/ss4.png)
+![Broadcast Detection](./Images/ss4.png)
 
 *Shows log: BROADCAST DETECTED from 00:00:00:00:00:01*
 
@@ -78,7 +78,7 @@ Performance tested using `iperf` between `h1` and `h2`.
 - **Result:** ~91.2 Gbits/sec  
 
 ### Iperf Result
-![Iperf Result](./images/ss8.png)
+![Iperf Result](./Images/ss8.png)
 
 *Shows: 106 GBytes 91.2 Gbits/sec*
 
