@@ -31,16 +31,6 @@ The objective is to manage network efficiency by detecting broadcast traffic and
 
 ---
 
-## 1. Problem Understanding & Setup
-The network utilizes a single-switch topology (`s1`) with three hosts (`h1`, `h2`, `h3`).  
-The POX controller handles `packet_in` events and dynamically updates the switch flow table.
-
-### Controller-Switch Connection
-![Controller Switch Connection](./Images/ss1.png)
-
-*Shows POX starting up and "Switch 1 connected"*
-
----
 
 
 ## 2. SDN Logic & Implementation
