@@ -73,5 +73,25 @@ Performance tested using `iperf` between `h1` and `h2`.
 *Shows: 106 GBytes 91.2 Gbits/sec*
 
 ---
+## 5. Set up Instructions
+Navigate to POX:
+
+cd pox
+
+Run controller:
+
+python3 pox.py log.level --DEBUG broadcast_control
+
+Start Mininet:
+
+sudo mn --controller=remote,ip=127.0.0.1 --topo=single,3 --mac
+
+Test Broadcast:
+
+mininet> h1 ping -b 10.0.0.255
+
+Test Performance:
+
+mininet> h1 iperf -c h2
 
 
