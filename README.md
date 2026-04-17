@@ -64,7 +64,8 @@ Using `ovs-ofctl dump-flows`, we verify that flow rules are installed in the swi
 This reduces controller overhead and improves efficiency.
 
 ### Flow Table Entries
-![Flow Rules](images/ss7.png)
+![Flow Rules](./images/ss9.png)
+(./images/ss7.png)
 
 *Shows entries like dl_dst=00:00:00:00:00:02*
 
