@@ -20,16 +20,6 @@ The POX controller handles `packet_in` events and dynamically updates the switch
 
 *Shows POX starting up and "Switch 1 connected"*# SDN Broadcast Traffic Control - Orange Problem
 
-## Project Overview
-This project implements an SDN-based solution using **Mininet** and the **POX controller**.  
-The objective is to manage network efficiency by detecting broadcast traffic and implementing selective forwarding to limit unnecessary flooding.
-
-### Core Features
-- **Controller-Switch Interaction:** Uses OpenFlow 1.0 to manage switch behavior  
-- **Broadcast Detection:** Identifies `ff:ff:ff:ff:ff:ff` traffic and logs occurrences  
-- **Selective Forwarding:** Learns MAC addresses and installs flow rules for unicast traffic to reduce switch-to-controller overhead  
-
----
 
 
 
